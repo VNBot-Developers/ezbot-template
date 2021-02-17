@@ -15,7 +15,8 @@ bot.on('info', (msg) => msg && msg.log && msg.log()); // Hiển thị thông tin
 bot.register(
 	// Khởi taọ plugin có sẵn
 	new CustomBot({
-		prefix: '!',
+		prefix: 'YOUR_PREFIX',
+		name: 'YOUR_NAME',
 	})
 )
 	// Plugin tự viết
