@@ -1,23 +1,26 @@
 {
-  "name": "ezbot-template",
-  "version": "1.0.0",
-  "description": "Template for ezbot",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VNBot-Developers/ezbot-template.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VNBot-Developers/ezbot-template/issues"
-  },
-  "homepage": "https://github.com/VNBot-Developers/ezbot-template#readme",
-  "dependencies": {
-    "@notekunn/ezbot": "^1.0.1",
-    "dotenv": "^8.2.0"
-  }
+	"name": "ezbot-template",
+	"version": "1.0.0",
+	"description": "Template for ezbot",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/VNBot-Developers/ezbot-template.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/VNBot-Developers/ezbot-template/issues"
+	},
+	"homepage": "https://github.com/VNBot-Developers/ezbot-template#readme",
+	"dependencies": {
+		"@vnbot/custom-bot": "^1.0.2",
+		"@vnbot/ezbot": "^1.0.3",
+		"dotenv": "^8.2.0",
+		"lodash": "^4.17.20"
+	}
 }

@@ -1,4 +1,5 @@
 # Logs
+appstate.json
 logs
 *.log
 npm-debug.log*
